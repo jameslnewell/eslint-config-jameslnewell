@@ -10,6 +10,9 @@
     "readable",
     "semicolons"
   ],
+  "dependencies": {
+    "strip-json-comments": "^1.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
@@ -18,8 +21,5 @@
     "example.ok": "eslint example/ok.js",
     "example.err": "eslint example/err.js"
   },
-  "license": "MIT",
-  "dependencies": {
-    "strip-json-comments": "^1.0.4"
-  }
+  "license": "MIT"
 }
