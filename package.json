@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-jameslnewell",
+  "version": "0.0.1",
+  "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "jameslnewell",
+    "readable",
+    "semicolons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
+  },
+  "scripts": {
+    "example.ok": "eslint example/ok.js",
+    "example.err": "eslint example/err.js"
+  },
+  "license": "MIT"
+}
