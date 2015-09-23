@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
   "keywords": [
     "eslint",
@@ -18,5 +18,8 @@
     "example.ok": "eslint example/ok.js",
     "example.err": "eslint example/err.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "strip-json-comments": "^1.0.4"
+  }
 }
