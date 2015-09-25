@@ -8,11 +8,15 @@ ESLint config for how I like to format code - readable with whitespace and semic
 
 ## Usage
 
-`.eslintrc`
+Create an `.eslintrc` file:
 
     {
         "extends": "jameslnewell"
     }
+    
+Run `eslint`:
+
+    eslint *.js
     
 ## Rules
 
