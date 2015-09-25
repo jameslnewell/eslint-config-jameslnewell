@@ -20,6 +20,7 @@ Run `eslint`:
     
 ## Rules
 
+- **semicolons**
 - **2 spaces** - for indentation
 - **Single quotes for strings** - except to avoid escaping
 - **No unused variables** - this one catches *tons* of bugs!
