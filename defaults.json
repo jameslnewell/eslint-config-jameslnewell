@@ -66,7 +66,6 @@
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 1,
-    "no-multi-spaces": [2, {"exceptions":{"Property": false}}],
     "no-native-reassign": 2,
     "no-new-func": 2,
     "no-new-wrappers": 2,
@@ -91,6 +90,10 @@
     "vars-on-top": 1, //valid but annoying, can't wait for ES6's let!!
     "wrap-iife": [2, "inside"],
     "yoda": [2, "never"],
+
+    //sometimes I like to align assignment statements, sometimes I don't - I couldn't achieve this so never align things to keep it consistent
+    "no-multi-spaces": 2,
+    "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "strict"}],
 
     //Variables
     "init-declarations": 0, //should this be "always" because there's protential for a var to be undefined when used later?
@@ -126,7 +129,6 @@
     "func-style": [2, "declaration"],
     "id-length": 0,
     "indent": [2, 2, {"SwitchCase": 1, "VariableDeclarator": 0}],
-    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
     "wrap-regex": 0,
     "spaced-comment": [2, "never"],
     "space-unary-ops": [2, { "words": true, "nonwords": false }],
