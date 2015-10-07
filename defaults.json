@@ -34,7 +34,16 @@
     "no-sparse-arrays": 2,
     "no-unreachable": 2,
     "use-isnan": 2,
-    "valid-jsdoc": 1,
+    "valid-jsdoc": [1, {
+      "prefer": {
+        "arg":        "param",
+        "argument":   "param",
+        "return":     "returns",
+        "class":      "constructor",
+        "exception":  "throws"
+      },
+      "requireReturnDescription": false
+    }],
     "valid-typeof": 2,
 
     //Best practices
@@ -44,7 +53,7 @@
     "consistent-return": 2,
     "default-case": 2,
     "dot-notation": 2,
-    "dot-location": [2, "object"],
+    "dot-location": [2, "property"],
     "eqeqeq": [2, "allow-null"],
     "guard-for-in": 2,
     "no-alert": 2,
@@ -144,7 +153,7 @@
     "semi-spacing": [2, {"before": false, "after": true}],
     "require-jsdoc": 1,
     "quotes": [2, "single", "avoid-escape"],
-    "quote-props": [2, "as-needed"],
+    "quote-props": [2, "consistent", {"keywords": true}],
     "padded-blocks": 0,
     "operator-linebreak": [2, "before"],
     "operator-assignment": 0,
@@ -166,7 +175,7 @@
     "newline-after-var": 0,
     "new-parens": 2,
     "new-cap": 2,
-    "max-nested-callbacks": [2, 3],
+    "max-nested-callbacks": [2, 4], //so high to account for mocha's describe() and it() functions
     "linebreak-style": [2, "unix"],
     "lines-around-comment": [2, {"beforeBlockComment": true, "afterBlockComment": false, "beforeLineComment": true, "afterLineComment": false}]
   },
