@@ -7,5 +7,5 @@
     "no-empty": 1,
     "no-unreachable": 1
   },
-  "extends": "./eslintrc.json"
+  "extends": "./defaults.json"
 }
