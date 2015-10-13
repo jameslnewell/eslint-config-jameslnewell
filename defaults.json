@@ -7,8 +7,6 @@
   },
 
   "rules": {
-
-    //Possible errors
     "comma-dangle": [2, "never"],
     "no-cond-assign": [2, "always"],
     "no-console": 2,
@@ -46,7 +44,6 @@
     }],
     "valid-typeof": 2,
 
-    //Best practices
     "accessor-pairs": 1,
     "block-scoped-var": 2,
     "complexity": [1, 4],
@@ -96,35 +93,31 @@
     "no-warning-comments": 1,
     "no-with": 2,
     "radix": 2,
-    "vars-on-top": 1, //valid but annoying, can't wait for ES6's let!!
+    "vars-on-top": 1,
     "wrap-iife": [2, "inside"],
     "yoda": [2, "never"],
 
-    //sometimes I like to align assignment statements, sometimes I don't - I couldn't achieve this so never align things to keep it consistent
     "no-multi-spaces": 2,
     "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "strict"}],
 
-    //Variables
-    "init-declarations": 0, //should this be "always" because there's protential for a var to be undefined when used later?
+    "init-declarations": 1,
     "no-catch-shadow": 2,
     "no-delete-var": 2,
     "no-label-var": 2,
     "no-shadow-restricted-names": 2,
-    "no-shadow": 2, //this saves hours of debugging!
+    "no-shadow": 2,
     "no-undef-init": 2,
     "no-undef": 2,
     "no-undefined": 2,
     "no-unused-vars": 2,
     "no-use-before-define": 2,
 
-    //CommonJS/NodeJS
     "callback-return": [2, ["callback", "cb", "next", "done"]],
     "global-require": 2,
     "handle-callback-err": [2, "^(err|error)$"],
     "no-mixed-requires": 0,
     "no-new-require": 2,
 
-    //Stylistic
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs"],
@@ -175,7 +168,7 @@
     "newline-after-var": 0,
     "new-parens": 2,
     "new-cap": 2,
-    "max-nested-callbacks": [2, 4], //so high to account for mocha's describe() and it() functions
+    "max-nested-callbacks": [2, 4],
     "linebreak-style": [2, "unix"],
     "lines-around-comment": [2, {"beforeBlockComment": true, "afterBlockComment": false, "beforeLineComment": true, "afterLineComment": false}]
   },
