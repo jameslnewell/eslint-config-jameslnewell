@@ -1,4 +1,3 @@
-var jameslnewell, i;
 
 /**
  * A person
@@ -15,8 +14,8 @@ Person.prototype.dance = function() {
   return this.firstName + ' will never dance!!!';
 };
 
-jameslnewell = new Person('James', 'Newell');
+var jameslnewell = new Person('James', 'Newell');
 
-for (i = 0; i < 3; ++i) {
+for (var i = 0; i < 3; ++i) {
   jameslnewell.dance();
 }
