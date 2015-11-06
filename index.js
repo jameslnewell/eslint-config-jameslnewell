@@ -1,1 +1,5 @@
-module.exports = require('./defaults.json');
+module.exports = {
+  extends: [
+    'jameslnewell/es6'
+  ]
+};

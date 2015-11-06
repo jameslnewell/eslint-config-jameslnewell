@@ -8,16 +8,34 @@ ESLint config for how I like to format code - readable with whitespace and semic
 
 ## Usage
 
-Create an `.eslintrc` file:
+In the root of your project, create a `.eslintrc` file with the following contents:
 
     {
+        "env": {
+          "browser": true, 
+          "mocha": true
+        },
         "extends": "jameslnewell"
     }
     
-Run `eslint`:
+Now run `eslint` on your script files:
 
-    eslint *.js
-    
+    eslint **/*.js
+
+## Configurations
+
+### jameslnewell/es5
+
+Linting rules for ES5.
+
+### jameslnewell/es6
+
+Linting rules for ES6.
+
+### jameslnewell/react
+
+Linting rules for ES6 and react.
+
 ## Rules
 
 - **semicolons**

@@ -15,8 +15,16 @@
     "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
   },
   "scripts": {
-    "example.ok": "eslint example/ok.js",
-    "example.err": "eslint example/err.js"
+    "es5.ok": "eslint -c jameslnewell/es5 example/es5/ok.js",
+    "es5.err": "eslint -c jameslnewell/es5 example/es5/err.js",
+    "es6.ok": "eslint -c jameslnewell/es6 example/es6/ok.js",
+    "es6.err": "eslint -c jameslnewell/es6 example/es6/err.js",
+    "react.ok": "eslint -c jameslnewell/react example/react/ok.js",
+    "react.err": "eslint -c jameslnewell/react example/react/err.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^4.1.4",
+    "eslint-plugin-react": "^3.7.1"
+  }
 }
