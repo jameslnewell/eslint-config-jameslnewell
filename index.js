@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    'jameslnewell/es6'
+    './es6'
   ]
 };

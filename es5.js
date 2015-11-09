@@ -31,32 +31,33 @@ module.exports = {
     'no-unreachable': 2,
     'use-isnan': 2,
     'valid-jsdoc': [1, {
-      'prefer': {
+      prefer: {
         'arg':        'param',
         'argument':   'param',
         'return':     'returns',
         'class':      'constructor',
         'exception':  'throws'
       },
-      'requireReturnDescription': false
+      requireParamDescription: false,
+      requireReturnDescription: false
     }],
     'valid-typeof': 2,
 
     'accessor-pairs': 1,
     'block-scoped-var': 2,
-    'complexity': [1, 4],
+    'complexity': [1, 11],
     'consistent-return': 2,
     'default-case': 2,
     'dot-notation': 2,
     'dot-location': [2, 'property'],
-    'eqeqeq': [2, 'allow-null'],
+    'eqeqeq': 2,
     'guard-for-in': 2,
     'no-alert': 2,
     'no-caller': 2,
     'no-div-regex': 1,
     'no-else-return': 1,
     'no-empty-label': 2,
-    'no-eq-null': 1,
+    'no-eq-null': 2,
     'no-eval': 2,
     'no-extend-native': 2,
     'no-extra-bind': 2,
@@ -144,7 +145,7 @@ module.exports = {
     'semi-spacing': [2, {'before': false, 'after': true}],
     'require-jsdoc': 1,
     'quotes': [2, 'single', 'avoid-escape'],
-    'quote-props': [2, 'consistent', {'keywords': true}],
+    'quote-props': [2, 'as-needed'],
     'padded-blocks': 0,
     'operator-linebreak': [2, 'before'],
     'operator-assignment': 0,

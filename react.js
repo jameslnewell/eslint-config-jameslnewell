@@ -1,12 +1,12 @@
 module.exports = {
 
-  plugins: [
-    'react'
-  ],
-
   ecmaFeatures: {
     'jsx': true
   },
+
+  plugins: [
+    'react'
+  ],
 
   rules:{
     'react/display-name': [2, {'acceptTranspilerName': true}],
@@ -16,7 +16,7 @@ module.exports = {
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-max-props-per-line': 0,
-    //'react/jsx-no-bind': 1, //not working?
+    'react/jsx-no-bind': 1, //not working?
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-literals': 0,
     'react/jsx-no-undef': 2,
@@ -43,7 +43,7 @@ module.exports = {
   },
 
   extends: [
-    'jameslnewell/es6'
+    './es6'
   ]
 
 };
