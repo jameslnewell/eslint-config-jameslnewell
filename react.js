@@ -43,7 +43,7 @@ module.exports = {
   },
 
   extends: [
-    './es6'
+    'jameslnewell/es6'
   ]
 
 };
