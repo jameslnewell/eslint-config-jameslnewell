@@ -145,7 +145,7 @@ module.exports = {
     'semi-spacing': [2, {'before': false, 'after': true}],
     'require-jsdoc': 1,
     'quotes': [2, 'single', 'avoid-escape'],
-    'quote-props': [2, 'as-needed'],
+    'quote-props': 0,
     'padded-blocks': 0,
     'operator-linebreak': [2, 'before'],
     'operator-assignment': 0,
