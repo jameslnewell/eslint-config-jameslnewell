@@ -18,7 +18,7 @@ module.exports = {
     'no-empty': 2,
     'no-ex-assign': 2,
     'no-extra-boolean-cast': 2,
-    'no-extra-parens': 2,
+    'no-extra-parens': 0,
     'no-extra-semi': 2,
     'no-func-assign': 2,
     'no-inner-declarations': 2,
@@ -167,10 +167,10 @@ module.exports = {
     'newline-after-var': 0,
     'new-parens': 2,
     'new-cap': 2,
-    'max-nested-callbacks': [2, 4],
+    'max-nested-callbacks': [1, 4],
     'max-len': [1, 100, 2],
     'linebreak-style': [2, 'unix'],
-    'lines-around-comment': [2, {'beforeBlockComment': true, 'afterBlockComment': false, 'beforeLineComment': true, 'afterLineComment': false}]
+    'lines-around-comment': [0, {'beforeBlockComment': true, 'afterBlockComment': false, 'beforeLineComment': true, 'afterLineComment': false}]
   },
 
   extends: [
