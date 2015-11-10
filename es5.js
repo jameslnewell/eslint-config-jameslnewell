@@ -153,7 +153,7 @@ module.exports = {
     'object-curly-spacing': [2, 'never'],
     'no-unneeded-ternary': 2,
     'no-underscore-dangle': 0,
-    'no-trailing-spaces': 2,
+    'no-trailing-spaces': 0,
     'no-ternary': 0,
     'no-spaced-func': 2,
     'no-new-object': 2,
