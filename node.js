@@ -1,30 +1,24 @@
 module.exports = {
 
   env: {
-    es6: true
+    es6: true,
+    node: true
   },
 
   ecmaFeatures: {
     arrowFunctions: true,
     blockBindings: true,
     classes: true,
-    defaultParams: true,
     destructuring: true,
     forOf: true,
-    modules: true,
     objectLiteralComputedProperties: true,
     objectLiteralShorthandMethods: true,
     objectLiteralShorthandProperties: true,
     restParams: true,
     spread: true,
     superInFunctions: true,
-    templateStrings: true,
-    experimentalObjectRestSpread: true
+    templateStrings: true
   },
-
-  plugins: [
-    'import'
-  ],
 
   rules: {
     'arrow-body-style': [1, 'as-needed'],
@@ -44,20 +38,7 @@ module.exports = {
     'prefer-reflect': 1,
     'prefer-spread': 2,
     'prefer-template': 1,
-    'require-yield': 2,
-
-    'import/no-unresolved': 2,
-    'import/named': 2,
-    //'import/default': 2, //doesn't work with jsx - https://github.com/benmosher/eslint-plugin-import/issues/94
-    'import/namespace': 2,
-    'import/export': 2,
-    'import/no-require': 2,
-    'import/no-named-as-default': 2,
-    'import/no-duplicates': 2,
-    'import/imports-first': [2, 'absolute-first'],
-
-    'no-undef': 0 //clashes with ecmaFeature experimentalObjectRestSpread - https://github.com/eslint/eslint/issues/3271
-
+    'require-yield': 2
   },
 
   extends: [
