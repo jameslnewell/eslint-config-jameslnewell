@@ -55,7 +55,7 @@ module.exports = {
     'no-alert': 2,
     'no-caller': 2,
     'no-div-regex': 1,
-    'no-else-return': 1,
+    'no-else-return': 0,
     'no-empty-label': 2,
     'no-eq-null': 2,
     'no-eval': 2,
