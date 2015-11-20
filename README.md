@@ -36,6 +36,20 @@ Linting rules for ES6.
 
 Linting rules for ES6 and react.
 
+### jameslnewell/node
+
+Linting rules for node v4.
+
+## Partial configurations
+
+### jameslnewell/test
+
+Relax rules with useful behaviour for testing.
+
+### jameslnewell/debug
+
+Relax rules with useful behaviour for debugging.
+
 ## Rules
 
 - **semicolons**
