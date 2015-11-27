@@ -1,3 +1,11 @@
 {
+  "settings": {
+    "import/resolve": {
+      "extensions": [
+        ".js",
+        ".jsx"
+      ]
+    }
+  },
   "extends": "jameslnewell"
 }
