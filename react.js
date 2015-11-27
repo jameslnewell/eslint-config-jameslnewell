@@ -8,6 +8,15 @@ module.exports = {
     'react'
   ],
 
+  "settings": {
+    "import/resolve": {
+      "extensions": [
+        ".js",
+        ".jsx"
+      ]
+    }
+  },
+
   rules:{
     'react/display-name': [2, {'acceptTranspilerName': true}],
     'react/forbid-prop-types': 0,
