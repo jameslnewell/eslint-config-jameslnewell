@@ -28,6 +28,7 @@ module.exports = {
     'generator-star-spacing': [2, {before: true, after: false}],
     'no-arrow-condition': 2,
     'no-class-assign': 2,
+    'no-console': 0,
     'no-const-assign': 2,
     'no-dupe-class-members': 2,
     'no-this-before-super': 2,
