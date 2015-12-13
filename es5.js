@@ -118,7 +118,7 @@ module.exports = {
     'no-new-require': 2,
 
     'array-bracket-spacing': [2, 'never'],
-    'block-spacing': [2, 'always'],
+    'block-spacing': [2, 'never'],
     'brace-style': [2, '1tbs'],
     'camelcase': [2, {'properties': 'always'}],
     'comma-spacing': [2, {'before': false, 'after': true}],
