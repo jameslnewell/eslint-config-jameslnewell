@@ -168,7 +168,7 @@ module.exports = {
     'new-parens': 2,
     'new-cap': 2,
     'max-nested-callbacks': [1, 4],
-    'max-len': [1, 100, 2],
+    'max-len': [1, 150, 2],
     'linebreak-style': [2, 'unix'],
     'lines-around-comment': [0, {'beforeBlockComment': true, 'afterBlockComment': false, 'beforeLineComment': true, 'afterLineComment': false}]
   },
