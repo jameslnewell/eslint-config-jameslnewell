@@ -36,8 +36,8 @@ module.exports = {
     'object-shorthand': [2, 'always'],
     'prefer-arrow-callback': 1,
     'prefer-const': 2,
-    'prefer-reflect': 1,
-    'prefer-spread': 2,
+    'prefer-reflect': 0,
+    'prefer-spread': 0,
     'prefer-template': 1,
     'require-yield': 2
   },
