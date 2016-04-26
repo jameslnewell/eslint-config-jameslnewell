@@ -73,4 +73,4 @@ Relax rules with useful behaviour for debugging.
 
 ### 1.0.0
 
-- break: support `eslint` v2
+- break: migrate to `eslint` v2
