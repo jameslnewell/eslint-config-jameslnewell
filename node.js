@@ -26,7 +26,7 @@ module.exports = {
     'arrow-spacing': [2, {before: true, after: true}],
     'constructor-super': 2,
     'generator-star-spacing': [2, {before: true, after: false}],
-    'no-arrow-condition': 2,
+    'no-confusing-arrow': ['error'],
     'no-class-assign': 2,
     'no-console': 0,
     'no-const-assign': 2,
@@ -43,7 +43,7 @@ module.exports = {
   },
 
   extends: [
-    'jameslnewell/es5'
+    './es5.js'
   ]
 
 };

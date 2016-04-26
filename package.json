@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "0.4.4",
+  "version": "1.0.0-rc.1",
   "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
   "keywords": [
     "eslint",
@@ -15,22 +15,22 @@
     "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
   },
   "peerDependencies": {
-    "eslint": "^1.9.0"
+    "eslint": "^2.0.0"
   },
   "dependencies": {
-    "eslint-plugin-import": "^0.11.0",
-    "eslint-plugin-react": "^3.7.1"
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-react": "^5.0.1"
   },
   "devDependencies": {
-    "eslint": "^1.9.0"
+    "eslint": "^2.8.0"
   },
   "scripts": {
-    "es5.ok": "eslint --no-eslintrc example/es5/ok.js",
-    "es5.err": "eslint --no-eslintrc example/es5/err.js",
+    "es5.ok": "eslint example/es5/ok.js",
+    "es5.err": "eslint example/es5/err.js",
     "es6.ok": "eslint example/es6/ok.js",
-    "es6.err": "eslint --no-eslintrc eslint-config-jameslnewell/es6 example/es6/err.js",
-    "react.ok": "eslint --no-eslintrc eslint-config-jameslnewell/react example/react/ok.js",
-    "react.err": "eslint --no-eslintrc eslint-config-jameslnewell/react example/react/err.js"
+    "es6.err": "eslint example/es6/err.js",
+    "react.ok": "eslint example/react/ok.js",
+    "react.err": "eslint example/react/err.js"
   },
   "license": "MIT"
 }

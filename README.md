@@ -64,9 +64,13 @@ Relax rules with useful behaviour for debugging.
   - Prevents accidental use of poorly-named browser globals like `open`, `length`,
     `event`, and `name`.
 - And more...
-    
-## License
 
-The MIT License (MIT)
+## TODO:
 
-Copyright (c) 2015 James Newell
+- assess new rules in http://eslint.org/blog/2016/02/eslint-v2.0.0-released and react/import plugins
+
+## Change log
+
+### 1.0.0
+
+- break: support `eslint` v2

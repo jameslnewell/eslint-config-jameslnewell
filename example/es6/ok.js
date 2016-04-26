@@ -17,8 +17,8 @@ class Person {
 
 }
 
-const jameslnewell = new Person('James', 'Newell');
+const me = new Person('James', 'Newell');
 
 for (let i = 0; i < 3; ++i) {
-  jameslnewell.dance();
+  me.dance();
 }

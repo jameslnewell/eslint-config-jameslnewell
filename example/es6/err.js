@@ -13,8 +13,8 @@ var Person = {
 
 }
 
-let jameslnewell = new Person('James', 'Newell');
+let me = new Person('James', 'Newell');
 
 for (const i=0; i < 3; ++i) {
-  jameslnewell.dance();
+  me.dance();
 }

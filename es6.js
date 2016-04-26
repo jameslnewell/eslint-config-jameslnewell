@@ -4,22 +4,12 @@ module.exports = {
     es6: true
   },
 
-  ecmaFeatures: {
-    arrowFunctions: true,
-    blockBindings: true,
-    classes: true,
-    defaultParams: true,
-    destructuring: true,
-    forOf: true,
-    modules: true,
-    objectLiteralComputedProperties: true,
-    objectLiteralShorthandMethods: true,
-    objectLiteralShorthandProperties: true,
-    restParams: true,
-    spread: true,
-    superInFunctions: true,
-    templateStrings: true,
-    experimentalObjectRestSpread: true
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    }
   },
 
   plugins: [
@@ -32,7 +22,7 @@ module.exports = {
     'arrow-spacing': [2, {before: true, after: true}],
     'constructor-super': 2,
     'generator-star-spacing': [2, {before: true, after: false}],
-    'no-arrow-condition': 2,
+    'no-confusing-arrow': ['error'],
     'no-class-assign': 2,
     'no-const-assign': 2,
     'no-dupe-class-members': 2,
@@ -51,7 +41,7 @@ module.exports = {
     //'import/default': 2, //doesn't work with jsx - https://github.com/benmosher/eslint-plugin-import/issues/94
     'import/namespace': 2,
     'import/export': 2,
-    'import/no-require': 2,
+    'import/no-commonjs': 2,
     'import/no-named-as-default': 2,
     'import/no-duplicates': 2,
     'import/imports-first': [2, 'absolute-first'],
@@ -61,7 +51,7 @@ module.exports = {
   },
 
   extends: [
-    'jameslnewell/es5'
+    './es5.js'
   ]
 
 };
