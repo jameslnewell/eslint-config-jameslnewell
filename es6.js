@@ -16,6 +16,17 @@ module.exports = {
     'import'
   ],
 
+  'settings': {
+    'import/resolver': {
+      'node': {
+        'extensions': [
+          '.js',
+          '.json'
+        ]
+      }
+    }
+  },
+
   rules: {
     'arrow-body-style': [1, 'as-needed'],
     'arrow-parens': 0,
