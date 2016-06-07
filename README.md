@@ -69,6 +69,11 @@ Relax rules with useful behaviour for debugging.
     
 ## Change log
 
+
+### 0.5.1
+
+- fix: moved `eslint-plugin-mocha` from `devDependencies` to `dependencies`
+
 ### 0.5.0
 
 - add: added `eslint-plugin-mocha` to prevent `.only()` slipping through
