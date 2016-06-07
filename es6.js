@@ -61,7 +61,7 @@ module.exports = {
   },
 
   extends: [
-    'jameslnewell/es5'
+    './es5.js'
   ]
 
 };

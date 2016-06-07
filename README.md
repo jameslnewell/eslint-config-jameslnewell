@@ -2,6 +2,8 @@
 
 ESLint config for how I like to format code - readable with whitespace and semicolons.
 
+> Note: [Why I enforce formatting](https://github.com/airbnb/javascript/issues/866)
+
 ## Installation
 
     npm install --save eslint-config-jameslnewell
@@ -65,8 +67,8 @@ Relax rules with useful behaviour for debugging.
     `event`, and `name`.
 - And more...
     
-## License
+## Change log
 
-The MIT License (MIT)
+### 0.5.0
 
-Copyright (c) 2015 James Newell
+- add: added `eslint-plugin-mocha` to prevent `.only()` slipping through

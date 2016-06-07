@@ -4,6 +4,10 @@ module.exports = {
     commonjs: true
   },
 
+  plugins: [
+    'mocha'
+  ],
+
   rules: {
     'comma-dangle': [2, 'never'],
     'no-cond-assign': [2, 'always'],
@@ -170,7 +174,13 @@ module.exports = {
     'max-nested-callbacks': [1, 4],
     'max-len': [1, 150, 2],
     'linebreak-style': [2, 'unix'],
-    'lines-around-comment': [0, {'beforeBlockComment': true, 'afterBlockComment': false, 'beforeLineComment': true, 'afterLineComment': false}]
+    'lines-around-comment': [0, {'beforeBlockComment': true, 'afterBlockComment': false, 'beforeLineComment': true, 'afterLineComment': false}],
+
+    //tests
+    'mocha/no-exclusive-tests': 2,
+    'mocha/handle-done-callback': 2,
+    'mocha/no-global-tests': 2
+
   },
 
   extends: [
