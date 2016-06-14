@@ -140,7 +140,7 @@ module.exports = {
     'sort-vars': 0,
     'semi': [2, 'always'],
     'semi-spacing': [2, {'before': false, 'after': true}],
-    'require-jsdoc': 1,
+    'require-jsdoc': 0,
     'quotes': [2, 'single', 'avoid-escape'],
     'quote-props': 0,
     'padded-blocks': 0,
