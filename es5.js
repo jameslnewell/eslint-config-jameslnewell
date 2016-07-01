@@ -46,7 +46,7 @@ module.exports = {
     'accessor-pairs': 1,
     'block-scoped-var': 2,
     'complexity': [1, 11],
-    'consistent-return': 2,
+    'consistent-return': 1,
     'default-case': 2,
     'dot-notation': 2,
     'dot-location': [2, 'property'],
@@ -110,7 +110,7 @@ module.exports = {
     'no-unused-vars': 2,
     'no-use-before-define': 2,
 
-    'callback-return': [2, ['callback', 'cb', 'next', 'done']],
+    'callback-return': [1, ['callback', 'cb', 'next', 'done']],
     'global-require': 2,
     'handle-callback-err': [2, '^(err|error)$'],
     'no-mixed-requires': 0,
