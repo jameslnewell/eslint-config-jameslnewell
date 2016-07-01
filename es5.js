@@ -30,7 +30,7 @@ module.exports = {
     'no-sparse-arrays': 2,
     'no-unreachable': 2,
     'use-isnan': 2,
-    'valid-jsdoc': [1, {
+    'valid-jsdoc': [0, { //not everyone uses webstorm and therefore won't get use out of it
       prefer: {
         'arg':        'param',
         'argument':   'param',
