@@ -2,6 +2,8 @@
 
 ESLint config for how I like to format code - readable with whitespace and semicolons.
 
+> Note: [Why I enforce formatting](https://github.com/airbnb/javascript/issues/866)
+
 ## Installation
 
     npm install --save eslint-config-jameslnewell
@@ -68,9 +70,18 @@ Relax rules with useful behaviour for debugging.
 ## TODO:
 
 - assess new rules in http://eslint.org/blog/2016/02/eslint-v2.0.0-released and react/import plugins
-
+    
 ## Change log
 
 ### 1.0.0
 
 - break: migrate to `eslint` v2
+
+### 0.5.1
+
+- fix: moved `eslint-plugin-mocha` from `devDependencies` to `dependencies`
+
+### 0.5.0
+
+- add: added `eslint-plugin-mocha` to prevent `.only()` slipping through
+

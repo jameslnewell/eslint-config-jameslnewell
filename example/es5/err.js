@@ -15,3 +15,7 @@ var jameslnewell = new person("James", 'Newell');;
 for (var i=0; i < 3; ++i) {
   jameslnewell.dance();
 }
+
+describe.only('foo', function() {
+  it('should do some thing');
+});
