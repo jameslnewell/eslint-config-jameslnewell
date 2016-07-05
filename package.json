@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "1.0.0-rc.6",
+  "version": "1.0.0-rc.7",
   "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
   "keywords": [
     "eslint",
@@ -14,16 +14,16 @@
     "type": "git",
     "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
   },
-  "peerDependencies": {
-    "eslint": "^2.0.0"
-  },
   "dependencies": {
-    "eslint-plugin-import": "^1.6.0",
-    "eslint-plugin-mocha": "^1.1.0",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-mocha": "^4.0.0",
+    "eslint-plugin-react": "^5.2.2"
   },
   "devDependencies": {
-    "eslint": "^2.8.0"
+    "eslint": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.0.0 || ^3.0.0"
   },
   "scripts": {
     "es5.ok": "eslint example/es5/ok.js",
