@@ -17,14 +17,23 @@ module.exports = {
   ],
 
   'settings': {
+
+    //don't parse files other than script files e.g. style and image files
+    'import/extensions': [
+      '.js',
+      '.jsx'
+    ],
+
     'import/resolver': {
       'node': {
         'extensions': [
           '.js',
+          '.jsx',
           '.json'
         ]
       }
     }
+
   },
 
   rules: {

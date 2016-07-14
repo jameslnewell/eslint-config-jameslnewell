@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "1.0.0-rc.7",
+  "version": "1.0.0-rc.8",
   "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
   "keywords": [
     "eslint",
