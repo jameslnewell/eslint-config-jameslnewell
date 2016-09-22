@@ -1,5 +1,9 @@
 module.exports = {
 
+  extends: [
+    './es5.js'
+  ],
+
   env: {
     es6: true
   },
@@ -16,7 +20,7 @@ module.exports = {
     'import'
   ],
 
-  'settings': {
+  settings: {
 
     //don't parse files other than script files e.g. style and image files
     'import/extensions': [
@@ -37,41 +41,56 @@ module.exports = {
   },
 
   rules: {
-    'arrow-body-style': [1, 'as-needed'],
+
+    'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
-    'arrow-spacing': [2, {before: true, after: true}],
-    'constructor-super': 2,
-    'generator-star-spacing': [2, {before: true, after: false}],
+    'arrow-spacing': ['error', {before: true, after: true}],
+    'constructor-super': 'error',
+    'generator-star-spacing': ['error', {before: true, after: false}],
     'no-confusing-arrow': ['error'],
-    'no-class-assign': 2,
-    'no-const-assign': 2,
-    'no-dupe-class-members': 2,
-    'no-this-before-super': 2,
-    'no-var': 2,
-    'object-shorthand': [2, 'always'],
-    'prefer-arrow-callback': 1,
-    'prefer-const': 2,
-    'prefer-reflect': 1,
-    'prefer-spread': 2,
-    'prefer-template': 1,
-    'require-yield': 2,
+    'no-class-assign': 'error',
+    'no-const-assign': 'error',
+    'no-dupe-class-members': 'error',
+    'no-this-before-super': 'error',
+    'no-var': 'error',
+    'object-shorthand': ['error', 'always'],
+    'prefer-arrow-callback': 'warn',
+    'prefer-const': 'error',
+    'prefer-reflect': 'warn',
+    'prefer-spread': 'error',
+    'prefer-template': 'warn',
+    'require-yield': 'error',
 
-    'import/no-unresolved': 2,
-    'import/named': 2,
-    //'import/default': 2, //doesn't work with jsx - https://github.com/benmosher/eslint-plugin-import/issues/94
-    'import/namespace': 2,
-    'import/export': 2,
-    'import/no-commonjs': 2,
-    'import/no-named-as-default': 2,
-    'import/no-duplicates': 2,
-    'import/imports-first': [2, 'absolute-first'],
+    'import/no-unresolved': ['error', {/*ignore: []*/}], //update to work with short paths e.g. ~module
+    'import/named': 'error',
+    'import/default': 'error',
+    'import/namespace': 'error',
+    'import/no-restricted-paths': 'off',
+    'import/no-absolute-path': 'error',
 
-    'no-undef': 0 //clashes with ecmaFeature experimentalObjectRestSpread - https://github.com/eslint/eslint/issues/3271
+    'import/export': 'error',
+    'import/no-named-as-default': 'warn',
+    'import/no-named-as-default-member': 'error',
+    'import/no-deprecated': 'off',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-mutable-exports': 'error', //too strict?
 
-  },
+    'import/no-commonjs': 'error',
+    'import/no-amd': 'error',
+    'import/no-nodejs-modules': 'off', //how do we do this only for client?
 
-  extends: [
-    './es5.js'
-  ]
+    'import/imports-first': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-namespace': 'off',
+    // 'import/extensions': ['error', 'always', { //require extension for everything but .js and .jsx => broken
+    //   js: 'never',
+    //   jsx: 'never'
+    // }],
+    'import/order': ['error', {groups: ['builtin', 'external', 'internal', 'parent', 'index', 'sibling']}], //too strict? change to just builtin and external?
+    'import/newline-after-import': 'off',
+    'import/prefer-default-export': 'error', //too strict?
+    'import/max-dependencies': 'off' //maybe should enable it? but what number?
+
+  }
 
 };

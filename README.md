@@ -73,7 +73,15 @@ Relax rules with useful behaviour for debugging.
     
 ## Change log
 
-### 1.0.0
+### 2.0.0
+
+I bumped the major version because lots of people were using the preview.
+
+- break: use webpack config for resolution of `imports` 
+- break: moved `mocha` rules to the `test` configuration
+- break: turned on a whole heap of new `react` rules
+
+### 1.0.0-preview.*
 
 - break: migrate to `eslint` v2
 
