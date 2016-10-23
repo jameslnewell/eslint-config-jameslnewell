@@ -12,7 +12,7 @@ module.exports = {
     'mocha/no-exclusive-tests': 'error', //no .only()s!!!
     'mocha/no-skipped-tests': 'warn', //no .skip()s?
     'mocha/no-pending-tests': 'warn', //no .skip()s?
-    'mocha/handle-done-callback': 'done',
+    'mocha/handle-done-callback': 'on',
     'mocha/no-synchronous-tests': 'off',
     'mocha/no-global-tests': 'error',
     'mocha/no-return-and-callback': 'error',
