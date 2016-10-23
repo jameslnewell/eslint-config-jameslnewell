@@ -1,5 +1,13 @@
 module.exports = {
 
+  env: {
+    node: true
+  },
+
+  parserOptions: {
+    sourceType: 'script'
+  },
+
   rules: {
     'import/no-commonjs': 0
   },
