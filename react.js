@@ -54,7 +54,7 @@ module.exports = {
 
     'react/jsx-boolean-value': ['error', 'never'],
 
-    'react/jsx-filename-extension': 'error', //too strict?
+    'react/jsx-filename-extension': 'off', //too strict?
     'react/jsx-handler-names': 'error',
     'react/jsx-key': 'error',
     'react/jsx-no-bind': ['warn', {ignoreRefs: true, allowArrowFunctions: true, allowBind: false}], //just a warning cause its a perf optimization //not working?
