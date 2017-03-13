@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "2.0.0-preview.6",
-  "description": "ESLint config for how I like to format code - readable with whitespace and semicolons.",
+  "version": "3.0.0-preview",
+  "description": "ESLint config for common gotch'yas for different JS environments.",
   "keywords": [
     "eslint",
     "config",
@@ -10,10 +10,7 @@
     "readable",
     "semicolons"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jameslnewell/eslint-config-jameslnewell.git"
-  },
+  "repository": "jameslnewell/eslint-config-jameslnewell",
   "dependencies": {
     "babel-eslint": "^7.1.1",
     "eslint-plugin-import": "^1.15.0",

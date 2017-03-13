@@ -41,14 +41,8 @@ module.exports = {
 
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
-    'arrow-spacing': ['error', {before: true, after: true}],
-    'constructor-super': 'error',
-    'generator-star-spacing': ['error', {before: true, after: false}],
     'no-confusing-arrow': ['error', {'allowParens': true}],
-    'no-class-assign': 'error',
     'no-const-assign': 'error',
-    'no-dupe-class-members': 'error',
-    'no-this-before-super': 'error',
     'no-var': 'error',
     'object-shorthand': ['error', 'always'],
     'prefer-arrow-callback': 'warn',
@@ -58,11 +52,10 @@ module.exports = {
     'prefer-template': 'warn',
     'require-yield': 'error',
 
-    'import/no-unresolved': ['error', {/*ignore: []*/}], //update to work with short paths e.g. ~module
+    'import/no-unresolved': 'error',
     'import/named': 'error',
     'import/default': 'error',
     'import/namespace': 'error',
-    'import/no-restricted-paths': 'off',
     'import/no-absolute-path': 'error',
 
     'import/export': 'error',

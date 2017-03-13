@@ -1,8 +1,9 @@
 # eslint-config-jameslnewell
 
-ESLint config for how I like to format code - readable with whitespace and semicolons.
+ESLint config for common gotch'yas for different JS environments.
 
-> Note: [Why I enforce formatting](https://github.com/airbnb/javascript/issues/866)
+> Note: I think formatting code is important ([find out why here](https://github.com/airbnb/javascript/issues/866)) but nowdays
+I'm using [prettier](https://github.com/prettier/prettier) to take care of formatting code for  me.
 
 ## Installation
 
@@ -12,13 +13,12 @@ ESLint config for how I like to format code - readable with whitespace and semic
 
 In the root of your project, create a `.eslintrc` file with the following contents:
 
-    {
-        "env": {
-          "browser": true, 
-          "mocha": true
-        },
-        "extends": "jameslnewell"
-    }
+```json
+{
+  "extends": "jameslnewell/<env>"
+}
+```
+
     
 Now run `eslint` on your script files:
 
@@ -52,35 +52,24 @@ Relax rules with useful behaviour for testing.
 
 Relax rules with useful behaviour for debugging.
 
-## Rules
-
-- **semicolons**
-- **2 spaces** - for indentation
-- **Single quotes for strings** - except to avoid escaping
-- **No unused variables** - this one catches *tons* of bugs!
-- **Space after keywords** - `if (condition) { ... }`
-- **No space after function name** - `function name(arg) { ... }`
-- Always use `===` instead of `==` - but `obj == null` is allowed to check `null || undefined`.
-- Always handle the node.js `err` function parameter
-- Always prefix browser globals with `window` - except `document` and `navigator` are okay
-  - Prevents accidental use of poorly-named browser globals like `open`, `length`,
-    `event`, and `name`.
-- And more...
-
-## TODO:
-
-- assess new rules in http://eslint.org/blog/2016/02/eslint-v2.0.0-released and react/import plugins
-    
 ## Change log
 
-### 2.0.0
+### 3.0.0-preview.*
+
+- break: removed all rules that enforced formatting
+- break: switch `jameslnewell/test` from `mocha` to `jest`
+- break: removed rules already configured in `eslint:recommended`
 
 I bumped the major version because lots of people were using the preview.
+
+### 2.0.0-preview.*
 
 - break: use webpack config for resolution of `imports` 
 - break: moved `mocha` rules to the `test` configuration
 - break: turned on a whole heap of new `import, `react` and `mocha` rules
 - break: using `babel-eslint` to support class properties
+
+I bumped the major version because lots of people were using the preview.
 
 ### 1.0.0-preview.*
 

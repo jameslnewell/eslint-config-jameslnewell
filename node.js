@@ -9,7 +9,7 @@ module.exports = {
   },
 
   rules: {
-    'import/no-commonjs': 0
+    'import/no-commonjs': 'off'
   },
 
   extends: [
