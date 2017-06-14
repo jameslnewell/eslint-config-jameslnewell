@@ -1,16 +1,8 @@
 module.exports = {
 
   extends: [
-    './es6.js'
+    './es.js'
   ],
-
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-      experimentalObjectRestSpread: true
-    }
-  },
 
   plugins: [
     'react'

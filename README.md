@@ -34,6 +34,10 @@ Linting rules for ES5.
 
 Linting rules for ES6.
 
+### jameslnewell/es
+
+Linting rules for latest language features.
+
 ### jameslnewell/react
 
 Linting rules for ES6 and react.
