@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "3.0.0-preview.5",
+  "version": "3.0.0-preview",
   "description": "ESLint config for common gotch'yas for different JS environments.",
   "keywords": [
     "eslint",
