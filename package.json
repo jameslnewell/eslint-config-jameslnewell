@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jameslnewell",
-  "version": "3.0.0-preview.4",
+  "version": "3.0.0-preview.5",
   "description": "ESLint config for common gotch'yas for different JS environments.",
   "keywords": [
     "eslint",
@@ -11,17 +11,17 @@
     "semicolons"
   ],
   "repository": "jameslnewell/eslint-config-jameslnewell",
+  "peerDependencies": {
+    "eslint": "^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-mocha": "^4.5.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
     "eslint": "^4.0.0"
-  },
-  "peerDependencies": {
-    "eslint": "^2.0.0 || ^3.0.0"
   },
   "scripts": {
     "es5.ok": "eslint example/es5/ok.js",
