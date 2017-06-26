@@ -74,7 +74,8 @@ module.exports = {
     'no-array-constructor': 'error',
     'new-parens': 'error',
     'new-cap': 'error',
-    'max-nested-callbacks': ['warn', 4]
+    'max-nested-callbacks': ['warn', 4],
+    'no-extra-semi': 0 //let prettier handle semi-colons!
   },
 
   extends: [
