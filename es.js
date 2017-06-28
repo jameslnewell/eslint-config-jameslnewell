@@ -15,7 +15,17 @@ module.exports = {
     }
   },
 
+  plugins: [
+    'babel'
+  ],
+
   rules: {
+
+    //disable native rule and use babel rule to support the use 
+    //of `this` with class properties
+    'no-invalid-this': 'off',
+    'babel/no-invalid-this': 'error'
+
   }
 
 };
