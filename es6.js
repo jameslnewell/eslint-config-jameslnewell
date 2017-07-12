@@ -48,7 +48,6 @@ module.exports = {
     'object-shorthand': ['error', 'always'],
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'error',
-    'prefer-reflect': 'warn',
     'prefer-spread': 'error',
     'prefer-template': 'warn',
     'require-yield': 'error',
