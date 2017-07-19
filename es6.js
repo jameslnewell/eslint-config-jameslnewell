@@ -72,14 +72,7 @@ module.exports = {
     'import/imports-first': 'error',
     'import/no-duplicates': 'error',
     'import/no-namespace': 'off',
-    // 'import/extensions': ['error', 'always', { //require extension for everything but .js and .jsx => broken
-    //   js: 'never',
-    //   jsx: 'never'
-    // }],
     'import/order': ['error', {groups: ['builtin', 'external', 'internal', 'parent', 'index', 'sibling']}], //too strict? change to just builtin and external?
-    'import/newline-after-import': 'off',
-    'import/prefer-default-export': 'error', //too strict?
-    'import/max-dependencies': 'off' //maybe should enable it? but what number?
 
   }
 
