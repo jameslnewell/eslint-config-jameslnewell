@@ -40,7 +40,7 @@ module.exports = {
 
   rules: {
 
-    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-body-style': 'off',
     'arrow-parens': 'off',
     'no-confusing-arrow': ['error', {'allowParens': true}],
     'no-const-assign': 'error',
